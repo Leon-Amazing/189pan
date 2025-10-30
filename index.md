@@ -2,12 +2,12 @@
 
 [![签到状态](https://github.com/Leon-Amazing/189pan/actions/workflows/main.yml/badge.svg)](https://github.com/Leon-Amazing/189pan/actions/workflows/main.yml) [![项目主页](https://img.shields.io/badge/GitHub-项目主页-blue?logo=github)](https://github.com/Leon-Amazing/189pan)
 
-**最后更新:** 2025-10-29 21:48:41 CST
+**最后更新:** 2025-10-30 10:52:53 CST
 
 ## 快速导航
 
 - 🔄 [查看Action运行记录](https://github.com/Leon-Amazing/189pan/actions)
-- 📋 [查看最新运行](https://github.com/Leon-Amazing/189pan/actions/runs/18910121814)
+- 📋 [查看最新运行](https://github.com/Leon-Amazing/189pan/actions/runs/18928323548)
 - 🏠 [返回项目主页](https://github.com/Leon-Amazing/189pan)
 - ⚙️ [手动触发签到](https://github.com/Leon-Amazing/189pan/actions/workflows/main.yml)
 
@@ -16,24 +16,31 @@
 # 天翼云盘自动签到抽奖程序
 
 ## 执行概览
-- **启动时间**: 2025-10-29 21:48:41
+- **启动时间**: 2025-10-30 10:52:53
 - **账户数量**: 2 个
 
 ## 账户1
-登录过程出错: HTTPSConnectionPool(host='open.e.189.cn', port=443): Max retries exceeded with url: /api/logbox/oauth2/autoLogin.do?appId=cloud&version=v1.1&clientType=20010&format=redirect&paras=DA4980FB708A775261DAFA2ACC34E9372E07398C36768FE4B37C6745FD0F5E9B9195F37067B3E859ECB2C60CF2CDA2DC131EA71866222FC0DA1FD2B05CBB6658BD306F860EF532A81658A2CCB530DC2AF94F1CCEC83F0F2FED199138CB29680F0413C9047BBE8DE0C8A0F90D444ACE3AE2A9B84B55932CF408652BD6B57D6F04EBAEE458B798140108A0C8EFD92DE4E6F12FDAF9E04D77CAE83F212B35EA373D8686D7DF619E970955DC0CBB2993D9CA0B6B40C653BA08FB853CECC5D87F7870853D1950F97244F2D7DF3881E50746B59C5ABEC2623FF769A8699F2BE90FA4AFFBFA224A59106EE4C07E510AB8C407C383FFD070159F953C7DA6A5FC035CC67DF7A619BD0EB5BEA752DC1FAD15E5C198388CFC82E27391E786E30AEC0A52E06A7FB121F4DAE1F76CC0065A37C5E6A50EFCB5E9ABD92312A404847BF61B10A29A212F86BA1A1AB9EB6229B5929FAFEE022901E0FB432B3231463C76508700919D033C17B04E949F0AF8CBB0C871B7761CF99036F3EFBDCE860E473A370130C2823269008C8B27C83660D0ED3F660FFDC74038E425AB7A63F024DB9AB2207CE032AB4957359E12A450E0C89EEF5733CA919BC9EF2ECE291DEF9454D7CBD494795B7F7B5BCFE8CE5C9B1E80C4B79BC20ED212C0918A99CF6BF843CE639987FCBB23536742129CC2016F6340A7AD738703349E4B26495B13EE53C34AFCA109843A5563355970E53212A745A97366822BE6556CE1F0F38A724588&sign=E3C967B3F44427349348B36013ECB07A9954B494 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f1aecfe4bd0>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+第1次抽奖出错: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
 ### 执行结果
-- **登录状态**: 登录失败
-- **签到结果**: 
+- **登录状态**: 登录成功
+- **签到结果**: 签到成功，获得16M空间
+- **抽奖结果**:
+  - ❌ 第1次: 抽奖出错: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+  - ❌ 第2次: 抽奖失败，次数不足
+  - ❌ 第3次: 抽奖失败，次数不足
 
 ## 账户2
-登录过程出错: HTTPSConnectionPool(host='open.e.189.cn', port=443): Max retries exceeded with url: /api/logbox/oauth2/autoLogin.do?appId=cloud&version=v1.1&clientType=20010&format=redirect&paras=8F1E2572D74CB0B56072F3D0D6393DEFE5A56E409D62B5C74E360F3BB82CB2FB07CC8A612A01B521C03BA7F1131A09FE7EF5534BA74B55C9E5684D45889D993EF9B1C553CF79A7F1DE22E2B1256E2E0A1E14E3320B6086BCE60B8B6F45C9BA9FABEDB5FA2FABB84056329623DB9A225711A32A1B6FF068E6327FE2130512F60F82ED84603651340DDA170F0ADE17D3214C1D8D27DFC18673745ECFEE75AE953DEAF346D9A6CB41F8522EE8EE231B7B41B10F2860973CEE701D83FCEBC06BB0E76A39EE5EBF043FF32B617606DA8DB6BA9DA103119F28606D2F00E30C7B29FFF02BE7D74C139FF2AA917A2A9788479B922506FB8B4E93857746CD26B7EFF14BEE3306A593F05E9A773AEBC503D962EA7F7EB9B1ADE3B3E8F5239195E20FBCACF3F52906CFA3AB45EEBFA4B0A8EE616F48084ACB8AFA04C80FE48A0B337A7E35010A65D93B05B1772FB383A90D057636513CB69DA37162DE1566B5FDE8DE8C9EF9404576F8637AB84053EF5CFCC595F3069BF40788132194C92DC887691D53BD2725F4055B033F39FADA331A4F9E24BE635BE7AE439EA3631A11FF340BB005EB75D9F837E7C92C5C951372CA8E6948835E44326D464C6401D505F6C31BB5D28391C28430210D07FA1546ECF42053BCA7E6B72018A0E38DDFDE738FB683C514E8BB64A3BAE1B76398A44FCA26383162FDD2C5DDF47D1248A8E17EF6501286275AC7DFA975730EBFEFEAC3B944E323E6ABB3D463F9D6A0B357A4&sign=878E609E0FAA2D04E2D957BA4A23547A2FB189E5 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f1aecff0410>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
 ### 执行结果
-- **登录状态**: 登录失败
-- **签到结果**: 
+- **登录状态**: 登录成功
+- **签到结果**: 签到成功，获得39M空间
+- **抽奖结果**:
+  - 🎉 第1次: 抽奖成功，获得天翼云盘50M空间
+  - ❌ 第2次: 抽奖失败，次数不足
+  - ❌ 第3次: 抽奖失败，次数不足
 
 ---
 ## 执行统计
-- **结束时间**: 2025-10-29 21:57:44
-- **运行时长**: 542.72 秒
+- **结束时间**: 2025-10-30 10:53:29
+- **运行时长**: 35.62 秒
 
 ✅ **所有账户处理完成！**
