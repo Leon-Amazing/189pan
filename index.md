@@ -2,12 +2,12 @@
 
 [![签到状态](https://github.com/Leon-Amazing/189pan/actions/workflows/main.yml/badge.svg)](https://github.com/Leon-Amazing/189pan/actions/workflows/main.yml) [![项目主页](https://img.shields.io/badge/GitHub-项目主页-blue?logo=github)](https://github.com/Leon-Amazing/189pan)
 
-**最后更新:** 2026-09-25 14:18:34 CST
+**最后更新:** 2026-09-26 02:00:25 CST
 
 ## 快速导航
 
 - 🔄 [查看Action运行记录](https://github.com/Leon-Amazing/189pan/actions)
-- 📋 [查看最新运行](https://github.com/Leon-Amazing/189pan/actions/runs/36102269042)
+- 📋 [查看最新运行](https://github.com/Leon-Amazing/189pan/actions/runs/36170648592)
 - 🏠 [返回项目主页](https://github.com/Leon-Amazing/189pan)
 - ⚙️ [手动触发签到](https://github.com/Leon-Amazing/189pan/actions/workflows/main.yml)
 
@@ -16,7 +16,7 @@
 # 天翼云盘自动签到抽奖程序
 
 ## 执行概览
-- **启动时间**: 2026-09-25 14:18:34
+- **启动时间**: 2026-09-26 02:00:25
 - **账户数量**: 2 个
 
 ## 账户1
@@ -33,7 +33,7 @@
 
 ---
 ## 执行统计
-- **结束时间**: 2026-09-25 14:18:39
-- **运行时长**: 5.07 秒
+- **结束时间**: 2026-09-26 02:00:32
+- **运行时长**: 6.63 秒
 
 ✅ **所有账户处理完成！**
